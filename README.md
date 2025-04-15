@@ -27,3 +27,17 @@ pip install openai python-dotenv
 ```
 
 2. Create a `.env` file in the project root with your OpenAI API key:
+```
+OPENAI_KEY = <your openai key>
+```
+
+3. Update your resume path
+```
+main.py
+resume_path = "data/myResume.tex"
+```
+
+4. Run the project
+```
+python3 main.py
+```
